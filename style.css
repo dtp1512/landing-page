@@ -37,9 +37,11 @@ ul {
 
 img {
     height: auto;
-    width: 100px;
+    width: auto;
     border-radius: 10px;
     border-color: blue;
+    height: auto;
+    width: 300px;
 }
 
 .content {
@@ -87,9 +89,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 8px;
-
-    
+    padding: 8px;  
 }
 
 .information {
@@ -98,12 +98,23 @@ img {
     justify-content: space-around;
     align-items: center;
     flex: 1;
+    padding: 48px;
 }
 
 .paragraph {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding: 48px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 18px;
 }
 
 .images {
@@ -112,6 +123,9 @@ img {
     gap: 8px;
     flex-wrap: wrap;
     flex: 1;
+    text-align: center;
+    padding: 18px;
+
 }
 
 .fourth {
@@ -120,6 +134,7 @@ img {
     flex-direction: column;
     flex: 1;
     background-color: #E5E7Eb;
+    padding: 100px;
 }
 
 .quote {
@@ -128,7 +143,8 @@ img {
     align-items: center;
     font-size: 36px;
     font-style: italic;
-    color:#1F2937
+    color:#1F2937;
+    padding: auto;
 }
 
 .quoter {
@@ -147,8 +163,17 @@ img {
     color: white;
     border-radius: 10px;
     padding: 30px;
-    margin: 80px 150px;
-   
+    margin: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 12px;
 }
 
 .footer {

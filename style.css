@@ -1,9 +1,11 @@
 body {
     margin: 0;
-    min-height: 100vh;
     display: flex;
+    flex: 1;
     flex-direction: column;
+    
 }
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -24,6 +26,11 @@ body {
     gap: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 ul {
     list-style-type: none;
 }
@@ -41,6 +48,16 @@ img {
     background-color: #1F2937;
     flex: 1;
     align-items: center;
+    padding: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+
 }
 
 .main {
@@ -57,12 +74,22 @@ img {
 .sign {
     color: white;
     background-color: blue;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
 }
 
 .placeholder {
     height: 200px;
     width: 200px;
     background-color: #E5E7Eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+
+    
 }
 
 .information {
@@ -84,28 +111,44 @@ img {
     justify-content: space-around;
     gap: 8px;
     flex-wrap: wrap;
+    flex: 1;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background-color: #E5E7Eb;
 }
 
 .quote {
     display: flex;
-    flex-shrink: 1;
-    align-items: center;
     justify-content: center;
-    background-color: #E5E7EB;
+    align-items: center;
     font-size: 36px;
-    font-style:italic;
+    font-style: italic;
+    color:#1F2937
+}
 
+.quoter {
+    display: flex;
+    align-items: flex-end;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
 }
 
 .sign-up {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
-    margin: 0px 50px;
     padding: 30px;
+    margin: 80px 150px;
+   
 }
 
 .footer {
